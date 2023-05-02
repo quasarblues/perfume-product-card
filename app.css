@@ -15,7 +15,6 @@
 body {
     height: 100vh;
     background-color: hsl(30, 38%, 92%);
-    margin: 0.75rem 1.1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,11 +34,11 @@ body {
 .project-container {
     background-color: var(--white);
     max-width: 650px;
-    width: 100%;
     border-radius: 15px;
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
+    margin: 1rem;
 }
 
 .img-container {
@@ -136,5 +135,6 @@ button.add-to-cart:hover {
     .product-info-container,
     .img-container {
         width: 100%;
+        height: 50%;
     }
 }
