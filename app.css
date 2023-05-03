@@ -20,7 +20,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
 }
 
 /* UTILITIES */
@@ -42,7 +41,6 @@ body {
     flex-wrap: wrap;
     overflow: hidden;
     margin: 1rem;
-    border: 5px solid green;
 }
 
 .img-container {
